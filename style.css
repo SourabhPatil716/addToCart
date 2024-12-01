@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+
+  h2 {
+    color: #e1102f;
+    margin-bottom: 20px;
+    
+  }
+  
+
+  .option {
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+  }
+  
+  .option:hover {
+    border: 1px solid #e1102f;
+    box-shadow: 0 4px 10px rgba(255, 111, 132, 0.5);
+  }
+  
+
+  .option input[type="radio"] {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: scale(1.2);
+  }
+  
+
+  .option label {
+    display: block;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .badge {
+    background: #e1102f;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+
+  .selectors {
+display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .selectors select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer .free-delivery {
+    color: #e1102f;
+    font-size: 14px;
+  }
+  
+  .footer .total {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button {
+    background: #e1102f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e1102f;
+  }
+  
+
+  .powered {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  #D1{
+    padding: 10px;
+  }
+  #D2{
+    padding: 10px;
+  }
+  #D3{
+    padding: 10px;
+  }
