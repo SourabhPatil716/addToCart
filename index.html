@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addToCart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>YAY! Its BOGO</h2> 
+   
+       <div class="option">
+         <input type="radio" id="unit1" name="offer" value="10" onclick="updateTotal(10)">
+         <label id="D1">
+           <div class="details">
+             <span>1 Unit <span class="badge">10% Off</span></span>
+             <span class="price">$10.00 USD <span class="original-price">$24.00 USD</span></span>
+           </div>
+           <p>Standard Price</p>
+         </label>
+       </div>
+   
+       <div class="option most-popular">
+         <input type="radio" id="unit2" name="offer" value="18" onclick="updateTotal(18)">
+         <label id="D2" >
+           <div class="details">
+             <span>2 Unit <span class="badge popular">20% Off</span></span>
+             <span class="price">$18.00 USD <span class="original-price">$24.00 USD</span></span>
+           </div>
+           <div class="selectors">
+             <div>
+               <!-- <label>#1</label> -->
+               <select>
+                 <option>Size</option>
+                 <option>S</option>
+                 <option>M</option>
+                 <option>L</option>
+               </select>
+               <select>
+                 <option>Colour</option>
+                 <option>Black</option>
+                 <option>Red</option>
+                 <option>White</option>
+               </select>
+             </div>
+             <div>
+               <!-- <label>#2</label> -->
+               <select>
+                 <option>Size</option>
+                 <option>S</option>
+                 <option>M</option>
+                 <option>L</option>
+               </select>
+               <select>
+                 <option>Colour</option>
+                 <option>Black</option>
+                 <option>Red</option>
+                 <option>White</option>
+               </select>
+             </div>
+           </div>
+         </label>
+       </div>
+   
+       <div class="option">
+         <input type="radio" id="unit3" name="offer" value="24" onclick="updateTotal(24)">
+         <label id="D3">
+           <div class="details">
+             <span>3 Unit <span class="badge">30% Off</span></span>
+             <span class="price">$24.00 USD <span class="original-price">$24.00 USD</span></span>
+           </div>
+         </label>
+       </div>
+   
+       <div class="footer">
+         <p class="free-delivery">Free Delivery</p>
+         <p class="total">Total: <span id="total">$0.00 USD</span></p>
+         <button onclick="addToCart()">+ Add to Cart</button>
+       </div>
+   
+       <p class="powered">© Powered by skemi</p>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
